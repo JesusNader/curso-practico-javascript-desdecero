@@ -1,0 +1,504 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.login, .email-sent, .create-account, .edit-account, .login-or-register {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.login .form-container, .email-sent .form-container, .create-account .form-container, .edit-account .form-container, .login-or-register .form-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+}
+.login .form-container .logo, .email-sent .form-container .logo, .create-account .form-container .logo, .edit-account .form-container .logo, .login-or-register .form-container .logo {
+  display: none;
+  width: 150px;
+  margin: 0 0 48px 0;
+  justify-self: center;
+}
+.login .form-container .title, .email-sent .form-container .title, .create-account .form-container .title, .edit-account .form-container .title, .login-or-register .form-container .title {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  text-align: center;
+}
+.login .form-container .subtitle, .email-sent .form-container .subtitle, .create-account .form-container .subtitle, .edit-account .form-container .subtitle, .login-or-register .form-container .subtitle {
+  margin: 0 0 32px 0;
+  color: #C7C7C7;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+.login .form-container .form, .email-sent .form-container .form, .create-account .form-container .form, .edit-account .form-container .form, .login-or-register .form-container .form {
+  display: flex;
+  flex-direction: column;
+}
+.login .form-container .form .label, .email-sent .form-container .form .label, .create-account .form-container .form .label, .edit-account .form-container .form .label, .login-or-register .form-container .form .label {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.login .form-container .form .input, .email-sent .form-container .form .input, .create-account .form-container .form .input, .edit-account .form-container .form .input, .login-or-register .form-container .form .input {
+  height: 30px;
+  margin: 0 0 22px 0;
+  padding: 6px;
+  background-color: #F7F7F7;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.login .form-container .form .primary-button, .email-sent .form-container .form .primary-button, .create-account .form-container .form .primary-button, .edit-account .form-container .form .primary-button, .login-or-register .form-container .form .primary-button {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ACD8B2;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+.login .form-container .form .login-button, .email-sent .form-container .form .login-button, .create-account .form-container .form .login-button, .edit-account .form-container .form .login-button, .login-or-register .form-container .form .login-button {
+  margin: 14px 0 30px 0;
+}
+.login .form .input-email, .email-sent .form .input-email, .create-account .form .input-email, .edit-account .form .input-email, .login-or-register .form .input-email {
+  margin: 0 0 22px 0;
+}
+.login .form a, .email-sent .form a, .create-account .form a, .edit-account .form a, .login-or-register .form a {
+  margin: 0 0 52px;
+  color: #ACD8B2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-or-register .secondary-button {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  color: #ACD8B2;
+  border: 1px solid #ACD8B2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create-account .form-container .title, .edit-account .form-container .title {
+  margin: 0 0 36px 0;
+  text-align: start;
+}
+.create-account .form-container .form .form-options, .edit-account .form-container .form .form-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-sent .form-container {
+  justify-items: center; /* Heredado de la clase .login */
+}
+.email-sent .form-container .email-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 132px;
+  margin: 0 0 24px 0;
+  background-color: #F7F7F7;
+  border-radius: 50%;
+}
+.email-sent .form-container .email-image img {
+  width: 80px;
+}
+.email-sent .form-container .primary-button {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ACD8B2;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+.email-sent .form-container .login-button {
+  margin: 14px 0 30px 0;
+}
+.email-sent .form-container .resent {
+  font-size: 14px;
+}
+.email-sent .form-container .resent span {
+  color: #C7C7C7;
+}
+.email-sent .form-container .resent a {
+  color: #ACD8B2;
+  text-decoration: none;
+}
+
+.edit-account .form-container .form .form-options .value {
+  margin: 8px 0 32px 0;
+  color: #C7C7C7;
+  font-size: 16px;
+}
+.edit-account .form-container .form .form-button .secondary-button {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  color: #ACD8B2;
+  border: 1px solid #ACD8B2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-container .cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  place-content: center;
+  gap: 26px;
+}
+.main-container .cards-container .product-card {
+  width: 240px;
+}
+.main-container .cards-container .product-card img {
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-container .cards-container .product-card .product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container .cards-container .product-card .product-info div p:nth-child(1) {
+  margin: 16px 0 4px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main-container .cards-container .product-card .product-info div p:nth-child(2) {
+  font-size: 14px;
+  color: #C7C7C7;
+}
+.main-container .cards-container .product-card .product-info figure img {
+  width: 35px;
+  height: 35px;
+}
+
+.desktop-menu {
+  width: 140px;
+  height: auto;
+  padding: 20px 20px 0 20px;
+  border: 1px solid #C7C7C7;
+  border-radius: 6px;
+}
+.desktop-menu ul {
+  list-style: none;
+}
+.desktop-menu ul li {
+  text-align: end;
+}
+.desktop-menu ul li a {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  color: #000000;
+  text-decoration: none;
+}
+.desktop-menu ul li:nth-child(1), .desktop-menu ul li:nth-child(2) {
+  font-weight: bold;
+}
+.desktop-menu ul li:last-child {
+  padding: 20px 0 0 0;
+  border-top: 1px solid #C7C7C7;
+}
+.desktop-menu ul li:last-child a {
+  color: #ACD8B2;
+  font-size: 14px;
+}
+
+.mobile-menu {
+  padding: 24px;
+}
+.mobile-menu ul {
+  margin: 24px 0 0;
+  list-style: none;
+}
+.mobile-menu ul .email {
+  font-size: 14px;
+  font-weight: 300;
+}
+.mobile-menu ul .sign-out {
+  color: #ACD8B2;
+  font-size: 14px;
+}
+.mobile-menu ul li {
+  margin: 0 0 24px 0;
+}
+.mobile-menu ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid #C7C7C7;
+}
+.mobile-menu ul:nth-last-child(1) {
+  margin: 100px 0 0 0;
+}
+
+.my-order, .my-orders {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.my-order .my-order-container, .my-orders .my-order-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+}
+.my-order .my-order-container .title, .my-orders .my-order-container .title {
+  margin: 0 0 40px 0;
+  font-size: 18px;
+}
+.my-order .my-order-container .my-order-content, .my-orders .my-order-container .my-order-content {
+  display: flex;
+  flex-direction: column;
+}
+.my-order .my-order-container .my-order-content .order, .my-orders .my-order-container .my-order-content .order {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 24px 0;
+  padding: 15px 24px;
+  border-radius: 8px;
+  background-color: #F7F7F7;
+}
+.my-order .my-order-container .my-order-content .order p, .my-orders .my-order-container .my-order-content .order p {
+  display: flex;
+}
+.my-order .my-order-container .my-order-content .order p span:nth-child(1), .my-orders .my-order-container .my-order-content .order p span:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+.my-order .my-order-container .my-order-content .order p span:nth-child(2), .my-orders .my-order-container .my-order-content .order p span:nth-child(2) {
+  color: #C7C7C7;
+  font-size: 14px;
+}
+.my-order .my-order-container .my-order-content .order p:nth-child(1), .my-orders .my-order-container .my-order-content .order p:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.my-order .my-order-container .my-order-content .order p:nth-child(2), .my-orders .my-order-container .my-order-content .order p:nth-child(2) {
+  justify-content: end;
+  font-weight: bold;
+}
+.my-order .my-order-container .shopping-cart, .my-orders .my-order-container .shopping-cart {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 16px;
+  margin: 0 0 24px 0;
+  align-items: center;
+}
+.my-order .my-order-container .shopping-cart figure img, .my-orders .my-order-container .shopping-cart figure img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.my-order .my-order-container .shopping-cart p:nth-child(2), .my-orders .my-order-container .shopping-cart p:nth-child(2) {
+  color: #C7C7C7;
+}
+.my-order .my-order-container .shopping-cart p:nth-child(3), .my-orders .my-order-container .shopping-cart p:nth-child(3) {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.my-orders .my-order-container .my-order-content .order {
+  grid-template-columns: auto 1fr auto;
+  background-color: #FFFFFF;
+  border-radius: 0px;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 24px;
+  border-bottom: 1px solid #C7C7C7;
+}
+nav .menu {
+  display: none;
+}
+nav .navbar-left {
+  display: flex;
+}
+nav .navbar-left .logo {
+  width: 100px;
+}
+nav .navbar-left ul {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin: 0 0 0 12px;
+  list-style: none;
+}
+nav .navbar-left ul li a {
+  padding: 8px;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  color: #C7C7C7;
+  text-decoration: none;
+}
+nav .navbar-left ul li a:hover {
+  border: 1px solid #ACD8B2;
+  color: #ACD8B2;
+}
+nav .navbar-right ul {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  list-style: none;
+}
+nav .navbar-right ul li a {
+  padding: 8px;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  color: #C7C7C7;
+  text-decoration: none;
+}
+nav .navbar-right ul li a:hover {
+  border: 1px solid #ACD8B2;
+  color: #ACD8B2;
+}
+nav .navbar-right ul .navbar-email {
+  margin: 0 12px 0 0;
+  color: #C7C7C7;
+  font-size: 14px;
+}
+nav .navbar-right ul .navbar-shopping-cart {
+  position: relative;
+}
+nav .navbar-right ul .navbar-shopping-cart div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -6px;
+  right: -2px;
+  width: 16px;
+  height: 16px;
+  background-color: #ACD8B2;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+aside {
+  position: absolute;
+  right: 0;
+  width: 360px;
+  padding: 0 0 24px 0;
+}
+aside .product-detail-close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 24px;
+  left: 24px;
+  width: 34px;
+  height: 34px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+aside .product-detail-close:hover {
+  cursor: pointer;
+}
+aside img:nth-child(2) {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 20px 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+aside .product-info {
+  margin: 24px 24px 0 24px;
+}
+aside .product-info p:nth-child(1) {
+  margin: 0 0 4px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+aside .product-info p:nth-child(2) {
+  margin: 0 0 36px 0;
+  color: #C7C7C7;
+  font-size: 16px;
+}
+aside .product-info p:nth-child(3) {
+  margin: 0 0 36px 0;
+  color: #C7C7C7;
+  font-size: 14px;
+}
+aside .add-to-cart-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ACD8B2;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+  .login .form-container .logo, .login-or-register .form-container .logo, .create-account .form-container .logo, .email-sent .form-container .logo, .edit-account .form-container .logo {
+    display: block;
+  }
+  .create-account .form-container, .edit-account .form-container {
+    height: 100%;
+  }
+  .create-account .form-container .form, .edit-account .form-container .form {
+    height: 100%;
+    justify-content: space-between;
+  }
+  .main-container .cards-container {
+    grid-template-columns: repeat(auto-fill, 140px);
+  }
+  .main-container .cards-container .product-card {
+    width: 140px;
+  }
+  .main-container .cards-container .product-card img {
+    width: 140px;
+    height: 140px;
+  }
+  nav .menu {
+    display: block;
+  }
+  nav .navbar-left ul {
+    display: none;
+  }
+  nav .navbar-right .navbar-email {
+    display: none;
+  }
+  aside {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
