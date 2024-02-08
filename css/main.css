@@ -8,6 +8,10 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+.inactive {
+  display: none;
+}
+
 .login, .email-sent, .create-account, .edit-account, .login-or-register {
   display: grid;
   place-items: center;
@@ -195,9 +199,13 @@ body {
 }
 
 .desktop-menu {
+  position: absolute;
+  top: 60px;
+  right: 60px;
   width: 140px;
   height: auto;
   padding: 20px 20px 0 20px;
+  background-color: #FFFFFF;
   border: 1px solid #C7C7C7;
   border-radius: 6px;
 }
@@ -387,6 +395,7 @@ nav .navbar-right ul .navbar-email {
   margin: 0 12px 0 0;
   color: #C7C7C7;
   font-size: 14px;
+  cursor: pointer;
 }
 nav .navbar-right ul .navbar-shopping-cart {
   position: relative;
