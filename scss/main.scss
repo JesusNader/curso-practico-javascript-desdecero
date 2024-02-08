@@ -275,8 +275,11 @@ body{
 }
 
 .mobile-menu{
+    position: absolute;
+    top: 60px;
     padding: 24px;
     ul{
+        padding: 0;
         margin: 24px 0 0;
         list-style: none;
         .email{
@@ -580,5 +583,13 @@ aside{
     }
     aside{
         width: 100%;
+    }
+    .desktop-menu{
+        display: none;
+    }
+}
+@media (min-width: 641px) {
+    .mobile-menu{
+        display: none;
     }
 }
