@@ -159,6 +159,7 @@ body {
   grid-template-columns: repeat(auto-fill, 240px);
   place-content: center;
   gap: 26px;
+  margin: 20px 0 0 0;
 }
 .main-container .cards-container .product-card {
   width: 240px;
@@ -569,15 +570,15 @@ nav .navbar-right ul .navbar-shopping-cart div {
   nav .navbar-right .navbar-email {
     display: none;
   }
+  nav .desktop-menu {
+    display: none;
+  }
   aside {
     width: 100%;
   }
-  .desktop-menu {
-    display: none;
-  }
 }
 @media (min-width: 641px) {
-  .mobile-menu {
+  nav .mobile-menu {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

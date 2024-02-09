@@ -225,6 +225,7 @@ body {
         grid-template-columns: repeat(auto-fill, 240px);
         place-content: center;
         gap: 26px;
+        margin: 20px 0 0 0;
 
         .product-card {
             width: 240px;
@@ -748,19 +749,20 @@ nav {
                 display: none;
             }
         }
+        .desktop-menu {
+            display: none;
+        }
     }
 
     aside {
         width: 100%;
     }
-
-    .desktop-menu {
-        display: none;
-    }
 }
 
 @media (min-width: 641px) {
-    .mobile-menu {
-        display: none;
+    nav{
+        .mobile-menu {
+            display: none;
+        }
     }
 }
