@@ -12,6 +12,18 @@ body {
   display: none;
 }
 
+.primary-button, .product-detail .product-detail-container .my-order-content .primary-button, .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .email-sent .form-container .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .email-sent .form-container .primary-button, .email-sent .form-container .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .email-sent .form-container .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .login .form-container .form .primary-button, .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .login .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .login .form-container .form .primary-button, .login .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .login .form-container .form .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .email-sent .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .email-sent .login .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .login .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .login .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .login .form-container .form .primary-button, .login .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login-or-register .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .login .form-container .form .primary-button, .login .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .login .form-container .form .primary-button, .login .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .create-account .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .login .form-container .form .primary-button, .login .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .login .form-container .form .primary-button, .login .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .login .form-container .form .primary-button, .login .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .edit-account .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .login .form-container .form .primary-button, .email-sent .form-container .form .primary-button, .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .create-account .form-container .form .primary-button, .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .create-account .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .create-account .form-container .form .primary-button, .create-account .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .create-account .form-container .form .primary-button, .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .email-sent .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .email-sent .create-account .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .create-account .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .create-account .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .create-account .form-container .form .primary-button, .create-account .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .create-account .form-container .form .primary-button, .create-account .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .create-account .form-container .form .primary-button, .create-account .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login-or-register .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .create-account .form-container .form .primary-button, .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .create-account .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .create-account .form-container .form .primary-button, .create-account .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .create-account .form-container .form .primary-button, .create-account .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .edit-account .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .create-account .form-container .form .primary-button, .edit-account .form-container .form .primary-button, .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .edit-account .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .edit-account .form-container .form .primary-button, .edit-account .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .edit-account .form-container .form .primary-button, .edit-account .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .edit-account .form-container .form .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .email-sent .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .email-sent .edit-account .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .edit-account .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .edit-account .form-container .form .primary-button, .edit-account .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .edit-account .form-container .form .primary-button, .edit-account .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .edit-account .form-container .form .primary-button, .edit-account .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login-or-register .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .edit-account .form-container .form .primary-button, .edit-account .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .edit-account .form-container .form .primary-button, .edit-account .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .create-account .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .edit-account .form-container .form .primary-button, .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .login-or-register .form-container .form .primary-button, .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .login-or-register .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .login-or-register .form-container .form .primary-button, .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .form-container .form .primary-button, .login-or-register .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .login-or-register .form-container .form .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .email-sent .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .email-sent .login-or-register .form-container .product-detail .product-detail-container .my-order-content .form .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .login-or-register .login .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .login .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .login .email-sent .login-or-register .form-container .form .primary-button, .login-or-register .email-sent .login .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .login .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .email-sent .login .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login .login-or-register .form-container .form .primary-button, .login-or-register .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .login-or-register .email-sent .form-container .form .primary-button, .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .login-or-register .form-container .form .primary-button, .login-or-register .create-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .create-account .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .create-account .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .create-account .email-sent .login-or-register .form-container .form .primary-button, .login-or-register .email-sent .create-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .create-account .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .email-sent .create-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .create-account .login-or-register .form-container .form .primary-button, .login-or-register .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .login-or-register .form-container .form .primary-button, .login-or-register .edit-account .email-sent .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .edit-account .email-sent .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .edit-account .email-sent .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .edit-account .email-sent .login-or-register .form-container .form .primary-button, .login-or-register .email-sent .edit-account .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .email-sent .edit-account .login-or-register .form-container .form .product-detail .product-detail-container .my-order-content .primary-button, .login-or-register .product-detail .product-detail-container .my-order-content .email-sent .edit-account .form-container .form .primary-button, .product-detail .product-detail-container .my-order-content .email-sent .edit-account .login-or-register .form-container .form .primary-button {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ACD8B2;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
 .login, .email-sent, .create-account, .edit-account, .login-or-register {
   display: grid;
   place-items: center;
@@ -59,17 +71,6 @@ body {
   border-radius: 8px;
   font-size: 16px;
 }
-.login .form-container .form .primary-button, .email-sent .form-container .form .primary-button, .create-account .form-container .form .primary-button, .edit-account .form-container .form .primary-button, .login-or-register .form-container .form .primary-button {
-  width: 100%;
-  height: 50px;
-  cursor: pointer;
-  background-color: #ACD8B2;
-  color: #FFFFFF;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-}
 .login .form-container .form .login-button, .email-sent .form-container .form .login-button, .create-account .form-container .form .login-button, .edit-account .form-container .form .login-button, .login-or-register .form-container .form .login-button {
   margin: 14px 0 30px 0;
 }
@@ -106,7 +107,8 @@ body {
 }
 
 .email-sent .form-container {
-  justify-items: center; /* Heredado de la clase .login */
+  justify-items: center;
+  /* Heredado de la clase .login */
 }
 .email-sent .form-container .email-image {
   display: flex;
@@ -120,17 +122,6 @@ body {
 }
 .email-sent .form-container .email-image img {
   width: 80px;
-}
-.email-sent .form-container .primary-button {
-  width: 100%;
-  height: 50px;
-  cursor: pointer;
-  background-color: #ACD8B2;
-  color: #FFFFFF;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
 }
 .email-sent .form-container .login-button {
   margin: 14px 0 30px 0;
@@ -221,7 +212,8 @@ body {
   color: #000000;
   text-decoration: none;
 }
-.desktop-menu ul li:nth-child(1), .desktop-menu ul li:nth-child(2) {
+.desktop-menu ul li:nth-child(1),
+.desktop-menu ul li:nth-child(2) {
   font-weight: bold;
 }
 .desktop-menu ul li:last-child {
@@ -237,6 +229,7 @@ body {
   position: absolute;
   top: 60px;
   padding: 24px;
+  background-color: #FFFFFF;
 }
 .mobile-menu ul {
   padding: 0;
@@ -285,6 +278,27 @@ body {
   display: flex;
   flex-direction: column;
 }
+.my-order .my-order-container .my-order-content .shopping-cart, .my-orders .my-order-container .my-order-content .shopping-cart {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 16px;
+  margin: 0 0 24px 0;
+  align-items: center;
+}
+.my-order .my-order-container .my-order-content .shopping-cart figure img, .my-orders .my-order-container .my-order-content .shopping-cart figure img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.my-order .my-order-container .my-order-content .shopping-cart p:nth-child(2), .my-orders .my-order-container .my-order-content .shopping-cart p:nth-child(2) {
+  color: #C7C7C7;
+}
+.my-order .my-order-container .my-order-content .shopping-cart p:nth-child(3), .my-orders .my-order-container .my-order-content .shopping-cart p:nth-child(3) {
+  font-size: 16px;
+  font-weight: bold;
+}
 .my-order .my-order-container .my-order-content .order, .my-orders .my-order-container .my-order-content .order {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -312,27 +326,6 @@ body {
 }
 .my-order .my-order-container .my-order-content .order p:nth-child(2), .my-orders .my-order-container .my-order-content .order p:nth-child(2) {
   justify-content: end;
-  font-weight: bold;
-}
-.my-order .my-order-container .shopping-cart, .my-orders .my-order-container .shopping-cart {
-  display: grid;
-  grid-template-columns: auto 1fr auto auto;
-  gap: 16px;
-  margin: 0 0 24px 0;
-  align-items: center;
-}
-.my-order .my-order-container .shopping-cart figure img, .my-orders .my-order-container .shopping-cart figure img {
-  width: 70px;
-  height: 70px;
-  border-radius: 20px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.my-order .my-order-container .shopping-cart p:nth-child(2), .my-orders .my-order-container .shopping-cart p:nth-child(2) {
-  color: #C7C7C7;
-}
-.my-order .my-order-container .shopping-cart p:nth-child(3), .my-orders .my-order-container .shopping-cart p:nth-child(3) {
-  font-size: 16px;
   font-weight: bold;
 }
 
@@ -418,13 +411,79 @@ nav .navbar-right ul .navbar-shopping-cart div {
   font-weight: bold;
 }
 
-aside {
+.product-detail {
   position: absolute;
   right: 0;
   width: 360px;
   padding: 0 0 24px 0;
+  background-color: #FFFFFF;
 }
-aside .product-detail-close {
+.product-detail .product-detail-container {
+  padding: 0 24px;
+}
+.product-detail .product-detail-container .title-container {
+  display: flex;
+}
+.product-detail .product-detail-container .title-container img {
+  transform: rotate(180deg);
+  margin-right: 14px;
+}
+.product-detail .product-detail-container .title-container p {
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.product-detail .product-detail-container .my-order-content .shopping-cart {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 16px;
+  margin: 0 0 24px 0;
+  align-items: center;
+}
+.product-detail .product-detail-container .my-order-content .shopping-cart figure img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.product-detail .product-detail-container .my-order-content .shopping-cart p:nth-child(2) {
+  color: #C7C7C7;
+}
+.product-detail .product-detail-container .my-order-content .shopping-cart p:nth-child(3) {
+  font-size: 16px;
+  font-weight: bold;
+}
+.product-detail .product-detail-container .my-order-content .order {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 24px 0;
+  padding: 15px 24px;
+  border-radius: 8px;
+  background-color: #F7F7F7;
+}
+.product-detail .product-detail-container .my-order-content .order p {
+  display: flex;
+}
+.product-detail .product-detail-container .my-order-content .order p span:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+.product-detail .product-detail-container .my-order-content .order p span:nth-child(2) {
+  color: #C7C7C7;
+  font-size: 14px;
+}
+.product-detail .product-detail-container .my-order-content .order p:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.product-detail .product-detail-container .my-order-content .order p:nth-child(2) {
+  justify-content: end;
+  font-weight: bold;
+}
+.product-detail .product-detail-close {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -437,35 +496,35 @@ aside .product-detail-close {
   border-radius: 50%;
   background-color: #FFFFFF;
 }
-aside .product-detail-close:hover {
+.product-detail .product-detail-close:hover {
   cursor: pointer;
 }
-aside img:nth-child(2) {
+.product-detail img:nth-child(2) {
   width: 100%;
   height: 100%;
   border-radius: 0 0 20px 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-aside .product-info {
+.product-detail .product-info {
   margin: 24px 24px 0 24px;
 }
-aside .product-info p:nth-child(1) {
+.product-detail .product-info p:nth-child(1) {
   margin: 0 0 4px 0;
   font-weight: bold;
   font-size: 16px;
 }
-aside .product-info p:nth-child(2) {
+.product-detail .product-info p:nth-child(2) {
   margin: 0 0 36px 0;
   color: #C7C7C7;
   font-size: 16px;
 }
-aside .product-info p:nth-child(3) {
+.product-detail .product-info p:nth-child(3) {
   margin: 0 0 36px 0;
   color: #C7C7C7;
   font-size: 14px;
 }
-aside .add-to-cart-button {
+.product-detail .add-to-cart-button {
   display: flex;
   align-items: center;
   justify-content: center;
