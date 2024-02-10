@@ -311,6 +311,8 @@ body {
 .mobile-menu {
     position: absolute;
     top: 60px;
+    left: 0;
+    width: 100vw;
     padding: 24px;
     background-color: $white;
     ul {
@@ -540,7 +542,7 @@ nav {
     }
 }
 
-.product-detail {
+aside {
     position: absolute;
     right: 0;
     width: 360px;
@@ -754,7 +756,7 @@ nav {
         }
     }
 
-    aside {
+    aside{
         width: 100%;
     }
 }
