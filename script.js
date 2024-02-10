@@ -13,12 +13,16 @@ function toggleMobileMenu() {
     if (!isCartMenuClosed){
         shoppingCartContainer.classList.add('inactive');
     }
+
+    closeProductDetailAside();
+
     menuMobile.classList.toggle('inactive');
 }
 
 function toggleCartMenu() {
     const isMobileMenuClosed = menuMobile.classList.contains('inactive');
     const isDeskstopMenuClosed = menuDesktop.classList.contains('inactive');
+    const isProductDetailClosed = productDetailContainer.classList.contains('inactive');
 
     if (!isMobileMenuClosed){
         menuMobile.classList.add('inactive');
@@ -26,8 +30,20 @@ function toggleCartMenu() {
     if (!isDeskstopMenuClosed){
         menuDesktop.classList.add('inactive');
     }
+    if (!isProductDetailClosed){
+        productDetailContainer.classList.add('inactive');
+    }
  
     shoppingCartContainer.classList.toggle('inactive');
+}
+
+function openProductDetailAside() {
+    shoppingCartContainer.classList.add('inactive');
+    productDetailContainer.classList.remove('inactive');
+}
+
+function closeProductDetailAside() {
+    productDetailContainer.classList.add('inactive');
 }
 
 function renderProducts(arr){
@@ -37,6 +53,7 @@ function renderProducts(arr){
     
         const productImg = document.createElement('img');
         productImg.setAttribute('src', product.image);
+        productImg.addEventListener('click', openProductDetailAside);
     
         const productInfo = document.createElement('div');
         productInfo.classList.add('product-info');
@@ -70,9 +87,11 @@ function renderProducts(arr){
 const menuEmail = document.querySelector('.navbar-email');
 const menuDesktop = document.querySelector('.desktop-menu');
 const menuHamIcon = document.querySelector('.menu');
+const productDetailCloseIcon = document.querySelector('.product-detail-close');
 const menuCartIcon = document.querySelector('.navbar-shopping-cart');
 const menuMobile = document.querySelector('.mobile-menu');
 const shoppingCartContainer = document.querySelector('#shoppingCartContainer');
+const productDetailContainer = document.querySelector('#product-detail');
 const cardsContainer = document.querySelector('.cards-container');
 
 const productList = [
@@ -96,4 +115,5 @@ const productList = [
 menuEmail.addEventListener('click', toggleDesktopMenu);
 menuHamIcon.addEventListener('click', toggleMobileMenu);
 menuCartIcon.addEventListener('click', toggleCartMenu);
-renderProducts(productList)
+productDetailCloseIcon.addEventListener('click', closeProductDetailAside);
+renderProducts(productList);
