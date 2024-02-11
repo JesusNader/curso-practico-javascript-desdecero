@@ -229,11 +229,12 @@ body {
 
         .product-card {
             width: 240px;
-
+            transition: .3s;
             img {
                 width: 240px;
                 height: 240px;
                 border-radius: 20px;
+                cursor: pointer;
                 object-fit: cover;
             }
 
@@ -256,12 +257,17 @@ body {
                 }
 
                 figure {
+                    cursor: pointer;
                     img {
                         width: 35px;
                         height: 35px;
                     }
                 }
             }
+        }
+        .product-card:hover{
+            transform: scale(1.1);
+            transition: .3s;
         }
     }
 }
@@ -522,7 +528,7 @@ nav {
 
             .navbar-shopping-cart {
                 position: relative;
-
+                cursor: pointer;
                 div {
                     position: absolute;
                     display: flex;
@@ -547,6 +553,7 @@ aside {
     right: 0;
     width: 360px;
     padding: 0 0 24px 0;
+    z-index: 1;
     background-color: $white;
 
     .product-detail-container {
@@ -697,8 +704,6 @@ aside {
         border-radius: 8px;
     }
 }
-
-
 
 @media (max-width: 640px) {
     .login {
