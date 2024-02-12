@@ -17,6 +17,12 @@ function toggleMobileMenu() {
     closeProductDetailAside();
 
     menuMobile.classList.toggle('inactive');
+
+    if(menuMobile.classList.contains('inactive')){
+        body.style.overflow = 'visible';
+    } else{
+        body.style.overflow= 'hidden';
+    }
 }
 
 function toggleCartMenu() {
@@ -35,6 +41,10 @@ function toggleCartMenu() {
     }
  
     shoppingCartContainer.classList.toggle('inactive');
+
+    if(!shoppingCartContainer.classList.contains('inactive')){
+        body.style.overflow = 'visible';
+    }
 }
 
 function openProductDetailAside() {
@@ -84,6 +94,7 @@ function renderProducts(arr){
     }
 }
 
+const body = document.querySelector('body');
 const menuEmail = document.querySelector('.navbar-email');
 const menuDesktop = document.querySelector('.desktop-menu');
 const menuHamIcon = document.querySelector('.menu');
@@ -98,6 +109,26 @@ const productList = [
 {
     name: 'Bike',
     price: 120,
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+},
+{
+    name: 'Windows',
+    price: 220,
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+},
+{
+    name: 'Computer',
+    price: 620,
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+},
+{
+    name: 'Windows',
+    price: 220,
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+},
+{
+    name: 'Computer',
+    price: 620,
     image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 },
 {

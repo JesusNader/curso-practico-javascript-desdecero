@@ -319,6 +319,7 @@ body {
     top: 60px;
     left: 0;
     width: 100vw;
+    height: calc(94.7% - 24px);
     padding: 24px;
     background-color: $white;
     ul {
@@ -456,92 +457,94 @@ body {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 24px;
-    border-bottom: 1px solid $very-light-pink;
-
-    .menu {
-        display: none;
-    }
-
-    .navbar-left {
+    .nav-container{
         display: flex;
-
-        .logo {
-            width: 100px;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 24px;
+        border-bottom: 1px solid $very-light-pink;
+        .menu {
+            display: none;
         }
-
-        ul {
+    
+        .navbar-left {
             display: flex;
-            align-items: center;
-            height: 60px;
-            margin: 0 0 0 12px;
-            list-style: none;
-
-            li {
-                a {
-                    padding: 8px;
-                    border: 1px solid $white;
-                    border-radius: 8px;
-                    color: $very-light-pink;
-                    text-decoration: none;
-                }
-
-                a:hover {
-                    border: 1px solid $hospital-green;
-                    color: $hospital-green;
+    
+            .logo {
+                width: 100px;
+            }
+    
+            ul {
+                display: flex;
+                align-items: center;
+                height: 60px;
+                margin: 0 0 0 12px;
+                list-style: none;
+    
+                li {
+                    a {
+                        padding: 8px;
+                        border: 1px solid $white;
+                        border-radius: 8px;
+                        color: $very-light-pink;
+                        text-decoration: none;
+                    }
+    
+                    a:hover {
+                        border: 1px solid $hospital-green;
+                        color: $hospital-green;
+                        transition: .7s;
+                    }
                 }
             }
         }
-    }
-
-    .navbar-right {
-        ul {
-            display: flex;
-            align-items: center;
-            height: 60px;
-            list-style: none;
-
-            li {
-                a {
-                    padding: 8px;
-                    border: 1px solid $white;
-                    border-radius: 8px;
+    
+        .navbar-right { 
+            ul {
+                display: flex;
+                align-items: center;
+                height: 60px;
+                list-style: none;
+    
+                li {
+                    a {
+                        padding: 8px;
+                        border: 1px solid $white;
+                        border-radius: 8px;
+                        color: $very-light-pink;
+                        text-decoration: none;
+                    }
+    
+                    a:hover {
+                        border: 1px solid $hospital-green;
+                        color: $hospital-green;
+                    }
+                }
+    
+                .navbar-email {
+                    margin: 0 12px 0 0;
                     color: $very-light-pink;
-                    text-decoration: none;
-                }
-
-                a:hover {
-                    border: 1px solid $hospital-green;
-                    color: $hospital-green;
-                }
-            }
-
-            .navbar-email {
-                margin: 0 12px 0 0;
-                color: $very-light-pink;
-                font-size: $sm;
-                cursor: pointer;
-            }
-
-            .navbar-shopping-cart {
-                position: relative;
-                cursor: pointer;
-                div {
-                    position: absolute;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    top: -6px;
-                    right: -2px;
-                    width: 16px;
-                    height: 16px;
-                    background-color: $hospital-green;
-                    border-radius: 50%;
                     font-size: $sm;
-                    font-weight: bold;
+                    cursor: pointer;
+                }
+    
+                .navbar-shopping-cart {
+                    position: relative;
+                    cursor: pointer;
+                    div {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        top: -6px;
+                        right: -2px;
+                        width: 16px;
+                        height: 16px;
+                        background-color: $hospital-green;
+                        border-radius: 50%;
+                        font-size: $sm;
+                        font-weight: bold;
+                    }
                 }
             }
         }
@@ -741,23 +744,25 @@ aside {
     }
 
     nav {
-        .menu {
-            display: block;
-        }
-
-        .navbar-left {
-            ul {
+        .nav-container{
+            .menu {
+                display: block;
+            }
+    
+            .navbar-left {
+                ul {
+                    display: none;
+                }
+            }
+    
+            .navbar-right {
+                .navbar-email {
+                    display: none;
+                }
+            }
+            .desktop-menu {
                 display: none;
             }
-        }
-
-        .navbar-right {
-            .navbar-email {
-                display: none;
-            }
-        }
-        .desktop-menu {
-            display: none;
         }
     }
 

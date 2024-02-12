@@ -240,6 +240,7 @@ body {
   top: 60px;
   left: 0;
   width: 100vw;
+  height: calc(94.7% - 24px);
   padding: 24px;
   background-color: #FFFFFF;
 }
@@ -348,68 +349,69 @@ body {
   padding: 0;
 }
 
-nav {
+nav .nav-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 0 24px;
   border-bottom: 1px solid #C7C7C7;
 }
-nav .menu {
+nav .nav-container .menu {
   display: none;
 }
-nav .navbar-left {
+nav .nav-container .navbar-left {
   display: flex;
 }
-nav .navbar-left .logo {
+nav .nav-container .navbar-left .logo {
   width: 100px;
 }
-nav .navbar-left ul {
+nav .nav-container .navbar-left ul {
   display: flex;
   align-items: center;
   height: 60px;
   margin: 0 0 0 12px;
   list-style: none;
 }
-nav .navbar-left ul li a {
+nav .nav-container .navbar-left ul li a {
   padding: 8px;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   color: #C7C7C7;
   text-decoration: none;
 }
-nav .navbar-left ul li a:hover {
+nav .nav-container .navbar-left ul li a:hover {
   border: 1px solid #ACD8B2;
   color: #ACD8B2;
+  transition: 0.7s;
 }
-nav .navbar-right ul {
+nav .nav-container .navbar-right ul {
   display: flex;
   align-items: center;
   height: 60px;
   list-style: none;
 }
-nav .navbar-right ul li a {
+nav .nav-container .navbar-right ul li a {
   padding: 8px;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   color: #C7C7C7;
   text-decoration: none;
 }
-nav .navbar-right ul li a:hover {
+nav .nav-container .navbar-right ul li a:hover {
   border: 1px solid #ACD8B2;
   color: #ACD8B2;
 }
-nav .navbar-right ul .navbar-email {
+nav .nav-container .navbar-right ul .navbar-email {
   margin: 0 12px 0 0;
   color: #C7C7C7;
   font-size: 14px;
   cursor: pointer;
 }
-nav .navbar-right ul .navbar-shopping-cart {
+nav .nav-container .navbar-right ul .navbar-shopping-cart {
   position: relative;
   cursor: pointer;
 }
-nav .navbar-right ul .navbar-shopping-cart div {
+nav .nav-container .navbar-right ul .navbar-shopping-cart div {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -574,16 +576,16 @@ aside .add-to-cart-button {
     width: 140px;
     height: 140px;
   }
-  nav .menu {
+  nav .nav-container .menu {
     display: block;
   }
-  nav .navbar-left ul {
+  nav .nav-container .navbar-left ul {
     display: none;
   }
-  nav .navbar-right .navbar-email {
+  nav .nav-container .navbar-right .navbar-email {
     display: none;
   }
-  nav .desktop-menu {
+  nav .nav-container .desktop-menu {
     display: none;
   }
   aside {
